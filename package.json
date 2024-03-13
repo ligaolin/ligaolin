@@ -6,8 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "lib": "vite build --config lib.config.js",
     "preview": "vite preview"
   },
+  "workspaces":[
+    "dist/lib"
+  ],
   "dependencies": {
     "vue": "^3.4.21"
   },
